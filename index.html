@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Responsive layout site</title>
-        <meta charset="UTF-8" lang="en"> 
+        <meta charset="UTF-8"> 
         <meta name=viewport content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,13 +17,13 @@
                 <li class="nav"><a href="#top">Portfolio</a></li>
                 <li class="nav"><a href="#top">Contact</a></li>
             </ul>
-            <section>
-                <img src="images/responsive-layout-profile.png" alt="My profile picture">
+            <div class="intro">
+                <img class="profile-pic" src="images/responsive-layout-profile.png" alt="My profile picture">
                 <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
-            </section>
+            </div>
         </header>
         <main>
-            <h2>Portfolio</h2>
+            <h2 class="portfolio">Portfolio</h2>
             <section>
                 <img src="images/portfolio-1.png" alt="Marketing Page Picture">
                 <h3>Marketing Page</h3>
@@ -56,9 +56,10 @@
             </section>
         </main>
         <footer>
-            <h2>Contact</h2>
-            <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-            <div>
+            <div class="contact">
+                <h2 class="contact-h">Contact</h2>
+                <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+            
                 <p>Phone <strong>+1 &lpar;111&rpar; 555-1234</strong></p>
                 <p>Email <strong>email@yoursite.com</strong></p>
             </div>
