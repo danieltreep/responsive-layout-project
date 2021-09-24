@@ -63,7 +63,7 @@ footer {
 }
 .contact {
     margin: 0 0 4rem;
-    color: rgb(133, 132, 132);
+    color: rgb(114, 111, 111);
 }
 .contact-h {
     color: #000;
@@ -78,6 +78,150 @@ footer {
 /* media queries */
 @media screen and (max-width: 768px) {
     .nav-bottom {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        /* max-width: 1000px; */
+        flex-wrap: wrap;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        margin: 2rem auto 4rem;
+        padding: 0 1.5rem;
+    }
+    main {
+        margin: 0 auto;
+        padding: 2rem 1rem 0;
+    }
+    h1 {
+        margin: 1rem auto .4rem;
+    }
+    .main-nav {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto 2rem;
+    }
+    .nav {
+        background-color: rgb(247, 247, 247);
+        padding: 1rem .5rem;
+    }
+    .intro {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding: 0 .3rem;
+    }
+    .intro-text {
+        margin: 0;
+        max-width: 60%;
+        font-size: 1.2rem;
+    }
+    .profile-pic {
+        order: 2;
+        margin: 0 1rem;
+        width: 40%;
+    }
+    .portfolio-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+    .item-text {
+        font-size: 1rem;
+        margin: 0 0 1.5rem;
+    }
+    section {
+        max-width: 49%;
+    }
+    h3 {
+        margin: 1rem;
+    }
+    .contact {
+        max-width: 70%;
+        margin: 0 auto 4rem;
+    }
+    .nav-bottom {
+        display: flex;
+        margin: 0;
+    }
+    .to-top {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        max-width: 1000px;
+        flex-wrap: wrap;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2rem auto 4rem;
+        padding: 0 1rem;
+        max-width: 95%;
+    }
+    main {
+        max-width: 96%;
+        margin: 0 auto;
+        padding: 2rem 1rem 0;
+    }
+    .intro {
+        display: flex;
+        text-align: left;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .intro-text {
+        margin: 0;
+        max-width: 50%;
+    }
+    .profile-pic {
+        order: 2;
+        margin: 0 1rem;
+        width: 40%;
+    }
+    .main-nav {
+        display: flex;
+    }
+    .nav {
+        background-color: rgb(247, 247, 247);
+        margin: 0 auto;
+    }
+    .portfolio-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 1rem;
+    }
+    .item-text {
+        font-size: .9rem;
+        margin: 0 0 1.5rem;
+    }
+    section {
+        max-width: 32%;
+        max-height: 32%;
+    }
+    h3 {
+        margin: 1rem;
+    }
+    .contact {
+        max-width: 50%;
+        margin: 0 auto 4rem;
+    }
+    .nav-bottom {
+        display: flex;
+        padding: 1rem; 
+        margin: 0;
+    }
+    .to-top {
         display: none;
     }
 }
