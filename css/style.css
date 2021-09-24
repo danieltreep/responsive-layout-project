@@ -65,6 +65,22 @@ footer {
     width: 70%;
     margin: 1rem;
 }
+#skills {
+    border-top: 1px solid rgba(128, 128, 128, .3);
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin: 0 auto;
+}
+.skills-list {
+    background: rgba(255, 244, 183, 0.753);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: .3rem;
+    font-size: 1rem;
+}
 .contact {
     margin: 0 0 4rem;
     color: rgb(114, 111, 111);
@@ -145,7 +161,13 @@ footer {
     h3 {
         margin: 1rem;
     }
-    .contact {
+    .skills {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 70%;
+        margin: 0 auto 3rem; 
+    }
+     .contact {
         max-width: 70%;
         margin: 0 auto 4rem;
     }
@@ -215,6 +237,12 @@ footer {
     }
     h3 {
         margin: 1rem;
+    }
+    .skills {
+        flex-direction: row;
+        justify-content: center;
+        max-width: 70%;
+        margin: 0 auto 3rem; 
     }
     .contact {
         max-width: 50%;
