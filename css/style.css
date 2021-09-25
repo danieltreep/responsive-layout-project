@@ -95,14 +95,12 @@ footer {
     justify-content: space-between;
     border-top: 1px solid rgba(126, 124, 124, .3);
 }
-/* media queries */
-@media screen and (max-width: 768px) {
-    .nav-bottom {
-        display: none;
-    }
+.nav-bottom {
+    display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+/* media queries */
+@media screen and (min-width: 768px) {
     body {
         flex-wrap: wrap;
     }
@@ -198,6 +196,9 @@ footer {
         max-width: 96%;
         margin: 0 auto;
         padding: 2rem 1rem 0;
+    }
+    h1 {
+        margin: 0;
     }
     .intro {
         display: flex;
